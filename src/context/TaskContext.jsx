@@ -4,7 +4,7 @@ import { useAuth } from './AuthContext';
 
 const TaskContext = createContext();
 
-const API_URL = 'http://localhost:5000/api/tasks';
+const API_URL = 'https://task-management-app-35ny.onrender.com/api/tasks';
 
 export const useTasks = () => {
   return useContext(TaskContext);
